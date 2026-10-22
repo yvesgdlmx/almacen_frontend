@@ -11,4 +11,5 @@ const RoleProtectedRoute = ({ allowedRoles, children }) => {
   // Si no tiene permisos, redirige al área de requisiciones (o a otra ruta que consideres)
   return <Navigate to="/solicitudes" />;
 };
+
 export default RoleProtectedRoute;
